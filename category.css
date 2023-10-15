@@ -1,0 +1,117 @@
+
+
+.container3 {
+    position: absolute;
+    top: 1790px;
+    left: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 800px;
+    height: 500px;
+    transition: 0.25s;
+   
+    
+}
+
+.container3 .box2 {
+    position: relative;
+    display: grid;
+    height: 500px;
+    background: #000;
+    transition: 0.25s;
+    background: var(--img);
+    background-position: center;
+    background-size: cover; 
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0);
+    
+
+}
+
+
+
+
+.container3:hover .box2
+{
+    filter: grayscale(1);
+}
+
+.container3 .box2:hover
+{
+filter: grayscale(0);
+}
+
+
+.container3:has(.one:hover)
+{
+    grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr;
+}
+
+.container3:has(.two:hover)
+{
+    grid-template-columns: 0.8fr 2fr 0.8fr 0.8fr;
+}
+
+.container3:has(.three:hover)
+{
+    grid-template-columns: 0.8fr 0.8fr 2fr 0.8fr;
+}
+
+.container3:has(.four:hover)
+{
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 2fr;
+}
+
+
+.container3 .box1::before
+{
+content: '';
+position: absolute;
+top: -1px;
+width: 100%;
+height: calc(100%+2px);
+}
+
+.container3 .box1:nth-child(even)
+{
+    transform: translateY(30px);
+}
+
+.container3 .box1:nth-child(odd)
+{
+    transform: translateY(-20px);
+}
+
+.container3 .box2::after
+{
+    content: attr(data-text);
+    position: absolute;
+    bottom: -100px;
+    background: #fff;
+    color: #000;
+    font-size: 1em;
+    font-weight: 600;
+    font-family:none ;
+    padding: 5px 10px;
+    white-space: nowrap;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    opacity: 0;
+    transition-delay:0s;
+    -webkit-box-reflect: below 2px linear-gradient(transparent,#0003);
+    
+}
+
+.container3 .box2:hover::after
+{
+opacity: 1;
+bottom: -50px;
+transition-delay: 0.25s;
+
+}
+

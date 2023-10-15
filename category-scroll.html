@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="category-scroll.css" rel="stylesheet" type="text/css">
+    <link href="scroll down animation.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/78afe9c4ff.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Peralta:regular" rel="stylesheet" />
+ 
+</head>
+<body>
+    <h1>WHAT'S YOUR FAVOURITE?</h1>
+    <br><br>
+    <div class="container">
+    <div class="box one"><img src="MODERNAPPAREL.png" alt="" width="800"></div>
+   
+    <div class="box two"><a href="choose gender-modern.html" class="links">MODERN APPAREL</a></div>
+
+    <div class="box three"><img src="ANCIENTCOSTUME.png" alt=""width="800"></div>
+   
+    <div class="box four"><a href="choose gender-ancient.html"class="links">ANCIENT COSTUME</a></div>
+
+    <div class="box five"><img src="WEDDINGCOSTUME (2).png" alt=""width="800"></div>
+   
+    <div class="box six"><a href="choose gender-wedding.html"class="links">WEDDING COSTUME</a></div>
+
+    <div class="box seven"><img src="COSPLAYCOSTUME.png" alt=""width="800"></div>
+   
+    <div class="box eight">
+        <a href="choose gender-cosplay.html"class="links">COSPLAY COSTUME</a></div>
+</div>
+
+<div style="padding-bottom:300px"></div>
+    <script>
+
+const boxes=document.querySelectorAll('.box')
+window.addEventListener('scroll',checkBoxes)
+checkboxes()
+
+function checkBoxes(){
+    const triggerBottom=window.innerHeight / 5 * 4
+    boxes.forEach(box =>{
+     const boxTop = box.getBoundingClientRect().top
+     if(boxTop < triggerBottom){
+     box.classList.add('show')
+    } else{
+        box.classList.remove('show')
+    }
+})
+}
+
+    </script>
+
+<div class="circle">
+        <div class="icon">
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+
+    </div>
+
+</body>
+</html>
