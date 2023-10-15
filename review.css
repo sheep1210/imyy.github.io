@@ -1,0 +1,140 @@
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#testimonials
+{
+    position: absolute;
+    top: 2640px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.testimonial-heading
+{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+
+.testimonial-heading h1
+{
+font-size: 2.2rem;
+font-weight: 500;
+background-color: #202020;
+border: 5px dashed white;
+color: #fff;
+padding: 10px 20px;
+font-family: "Permanent Marker";
+}
+
+.testimonial-heading span
+{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Permanent Marker";
+
+}
+
+.testimonial-box-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.testimonial-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    border: 10px double black;
+    
+}
+
+.profile-img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+}
+
+.name-user
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-family: none;
+}
+
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+    font-family: none;
+}
+
+.reviews
+{
+    color: #f9d71c;
+}
+
+.box-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-comment p{
+    font: 1rem;
+    color: #0a4486;
+    font-family: none;
+}
+
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transform: all ease-in-out 0.6s;
+}
