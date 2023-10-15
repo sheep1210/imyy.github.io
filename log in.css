@@ -1,0 +1,152 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+}
+
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+
+body{
+background-image: url('log\ in\ background.png');
+background-size: cover;
+
+}
+
+.box3
+{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: repeating-conic-gradient(from var(--a),#ff2770 0%,#ff2770 5%, transparent 5%,transparent 35%, #ff2770 50%);
+    animation: animate 4s linear infinite;
+    border-radius: 30px;
+}
+
+.box3::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a),#45f3ff 0%,#45f3ff 5%, transparent 5%,transparent 35%, #45f3ff 50%);
+    animation: animate 4s linear infinite;
+    border-radius: 30px;
+    animation-delay: -1s;
+
+}
+@property --a
+{
+syntax: '<angle>';
+inherits: false;
+initial-value: 0deg;
+
+}
+
+@keyframes animate
+{
+    0%
+    {
+--a: 0deg;
+    }
+    100%
+    {
+--a: 360deg;
+    }
+}
+
+.box3::after
+{
+    content:'';
+    position: absolute;
+    inset: 8px;
+    background: #2d2d39;
+    border-radius: 15px;
+    border: 9px solid #25252b;
+}
+
+.box3 form
+{
+position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+padding: 0 40px;
+z-index:100;
+
+}
+
+.box3 form h2
+{
+    color: white;
+    font-weight: 600;
+}
+
+.box3 form input
+{
+    position: relative;
+    width: 85%;
+    background: rgba(255,255,255,0.1);
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+
+}
+
+.box3 form input::placeholder
+{
+    color: rgba(255,255,255,0.5);
+}
+
+.box3 form input[type="submit"]
+{
+    font-weight: 600;
+    background: white;
+    color: #2d2d39;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box3 form input[type="submit"]:hover
+{
+    background: #01ffff;
+}
+
+.box3 form .group
+{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box3 form .group a
+{
+    color:rgba(255,255,255,0.75);
+    text-decoration: none;
+
+}
+
+.box3 form .group a:last-child
+{
+color: #04f3ff;
+font-weight: 600;
+}

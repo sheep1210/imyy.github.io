@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="neon button.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster:regular" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="feature.css" rel="stylesheet" type="text/css">
+    <link href="description.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua:regular" rel="stylesheet" />;
+    <link href="about us.css" rel="stylesheet" type="text/css">
+    <link href="category.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <link href="category-word.css" rel="stylesheet" type="text/css">
+    <link href="light实验.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/78afe9c4ff.js" crossorigin="anonymous"></script>
+    <link href="about us2备用.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700" rel="stylesheet" />
+    <link href="review.css" rel="stylesheet" type="text/css">
+    <link href="contact us.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700" rel="stylesheet" />
+  </head>
+<body>
+
+ 
+ 
+  <!--背景颜色-->
+ 
+  <style>
+    body{
+     background-image: url("black background.png");
+     
+     background-attachment: fixed;
+     z-index: -100;
+     
+    }
+     </style>
+     <!--DONE 背景颜色-->
+    
+    <!--dropdown-->
+    <style>
+        .dropbtn {
+          background-color: #03254c;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #03254c;
+          font-size: 18px;
+          border: 2px solid white;
+          border-radius: 9px;
+          min-width: 200px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 6;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          
+        }
+        
+        .dropdown-content a:hover {background-color: rgb(223, 223, 223)}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+          
+        }
+        
+        .dropdown:hover .dropbtn {
+          background-color: #03254c;
+          
+        }
+        </style>
+        <!--DONE dropdown-->
+  
+   
+            
+       
+
+
+
+<!--sticky box-->
+<style>
+    div.fixed {
+      position: fixed;
+      top: 56px;
+      left: 0;
+      right: 0;
+      padding: 5px;
+      background-image: linear-gradient(to bottom right, #03254c, #03254c);
+      list-style-type: none;
+      text-align:center;
+      margin: -60px;
+      z-index: 2;
+      
+     
+  }
+
+
+.nav li {
+  
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  
+ 
+
+
+}
+  </style>
+  <!--DONE sticky box-->
+
+  <div class="nav li" >
+
+    <!--Box字体-->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker:regular" rel="stylesheet" />
+    
+    <style>
+      div {
+        font-family: "Permanent Marker", sans-serif;
+        z-index: 1;
+      }
+      </style>
+      <!--DONE Box字体-->
+  
+     </div>
+  
+      <!--double边框-->
+      <style>
+       
+        div.double {
+          border-style: double; color:white;
+          border-width: 5px;
+          
+        }
+    
+      .links{
+        color:white;
+        text-decoration: none;
+        font-family: "Permanent Marker", sans-serif;
+      }
+      </style>
+      
+      <style>
+        a:link, a:visited {
+      
+          color: white;
+          text-decoration: none;
+          font-family: "Permanent Marker", sans-serif;
+        }
+        
+        a:hover, a:active {
+          color: #4895ef;
+        }
+
+        button:link, button:visited {
+      
+      color: white;
+      font-family: "Permanent Marker", sans-serif;
+      }
+
+      button:hover, button:active {
+       color: #4895ef;
+     }
+        </style>
+    
+  
+      <div class="fixed" >
+      <div class="double" >
+       
+    <ul class="nav" >
+    <li><i class="fa-solid fa-house"></i>
+      <a href="#HOME"class="links">HOME</a></li>
+  
+      <li><i class="fa-regular fa-heart"></i>
+      <a href="#ABOUTUS"class="links">ABOUT US</a></li>
+  
+      <li><i class="fa-solid fa-shirt"></i>
+        <a href="#CATEGORY"class="links">CATEGORY</a></li> 
+  
+      <li>
+        <i class="fa-solid fa-bag-shopping"></i><div class="dropdown">
+          <button class="dropbtn" class="links" style="position:relative; left:50px;">SHOPPING</button>
+          <div class="dropdown-content"style=" left:50px;" >
+          <a href="choose gender-modern.html">Modern Apparel</a>
+          <a href="choose gender-ancient.html">Ancient Costume</a>
+          <a href="choose gender-wedding.html">Wedding Costume</a>
+          <a href="choose gender-cosplay.html">Cosplay Costume</a>
+       
+          </div>
+        </div></li>
+       
+      <li><i class="fa-solid fa-comment-dots"></i>
+        <a href="#COMMENTS"class="links">COMMENTS</a></li>
+  
+      <li><i class="fa-solid fa-circle-user"></i>
+        <a href="log in2.html"class="links">LOG IN</a></li>
+      
+    </ul>
+    
+   </div>
+  
+    </div>
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/78afe9c4ff.js" crossorigin="anonymous"></script>
+ 
+ <!--home page welcome-->
+ <a name="HOME">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    </a>
+
+    <style>
+ h1 {
+  font-family: "Holtwood One Sc", slab-serif;
+  text-shadow: 2px 2px #00ffef ;
+
+}
+ .img {
+  background-image: url(blue.jpg);
+   height: 350px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-size: 100;
+   z-index: -1;
+   left: 0;
+   top: 60px;
+ }
+ </style>
+ </head>
+ <body>
+ <!--the guys above-->
+ <div class="img w3-display-container w3-animate-opacity w3-text-white">
+   <div class="w3-display-topleft w3-padding-large w3-xlarge">
+ 
+   </div>
+   
+   <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC:regular" rel="stylesheet" />
+
+  
+   
+   <div class="w3-display-middle ">
+     <h1 class="w3-jumbo w3-animate-top " >EXQUIS </h1>
+     <h1 class="w3-jumbo w3-animate-top "> FASHION</h1>
+     <hr class="w3-border-grey" style="margin:auto;width:40%">
+     <p class="w3-large w3-center" style="font-family: permanent marker;">~online apparel shop~</p>
+   </div>
+   <div class="w3-display-bottomleft w3-padding-large">
+    </div>
+ </div>
+ <section>
+  <h1 class="heading-1" style="position:relative;top:60px;left:10px;">~~WELCOME~~WELCOME~~WELCOME~~WELCOME~~WELCOME~~WELCOME~~</h1>
+  
+</span>
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy:regular" rel="stylesheet" />
+
+  <!--image slider start-->
+  <div class="slider">
+    <div class="slides">
+    <!--radio buttons start-->
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <!--radio buttons end-->
+    
+    <!--slide images start-->
+    <div class="slide first">
+        <img src="modern apparel.jpg" alt="modern apparel">
+      </div>
+      <div class="slide">
+        <img src="ancient costume.jpg" alt="ancient costume">
+      </div>
+      <div class="slide">
+        <img src="wedding costume.jpg" alt="wedding costume">
+      </div>
+      <div class="slide">
+        <img src="cosplay costume.jpg" alt="cosplay costume">
+      </div>
+      <!--slide images end-->
+    <!--automatic navigation start-->
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+    </div>
+    <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+      </div>
+       <!--image slider end-->
+
+       <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio'+ counter).checked=true;
+          counter++;
+          if(counter > 4){
+            counter=1;
+          }
+        },5000);
+        
+        </script>
+  
+   <!--glowing mouse cursor start-->
+  
+    
+   <div id="cursor">
+    
+   </div>
+
+ <script>
+   
+   let cursor=document.querySelector('#cursor');
+   let body=document.querySelector('body');
+   document.addEventListener('mousemove',(e)=>{
+     body.style.backgroundPositionX=e.pageX/-4+'px';
+     body.style.backgroundPositionY=e.pageY/-4+'px';
+     cursor.style.top = e.pageY+'px';
+     cursor.style.left = e.pageX+'px';
+     
+
+   })
+   
+ </script>
+ 
+  <!--glowing mouse cursor end-->
+  
+
+  <!--description border besides image slider start-->
+
+<div class="box">
+</div>
+<div class="description">
+</div>
+
+<p class="description2">Hii ! We are EXQUIS FASHION !The BEST choice out of all for different kind of clothes and costume !
+Are you still figuring of what clothes should you buy? Don't worry, all your need is what we have! It doesn’t matter if it is your Wedding Day, Events or just Daily, we will always be there for you.
+In fact, we also have a few branches all around Malaysia, America, Japanese and also Korea.</p>
+
+<!--description border besides image slider end-->
+<!--button start-->
+<div class="neon">
+  <a href="category-scroll.html" class="neon" style="font-family: lobster;">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      SHOP NOW >
+  </a>
+  </div>
+  <!--button end-->
+ 
+  
+<!--about us  START-->
+
+ <a name="ABOUTUS">
+  <div class="container4">
+  <div class="glass" style="--r:15;" data-text="Design"><i class="fa-solid fa-shirt"></i>
+      <p class="about-us1">Every single one of our fashion designers holds a professional fashion design bachelor's degree.</p>
+  </div>
+  <div class="glass" style="--r:-10;" data-text="Materials">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <p class="about-us2">Our clothing is comfortable and has undergone numerous safety inspections.</p>
+  </div>
+  <div class="glass" style="--r:15;" data-text="Store">
+      <i class="fa-solid fa-store"></i>
+      <p class="about-us3">In our physical stores, there will be trained consultants to help you select clothes that fit you.</p>
+  </div>
+  </div>
+  <h2 class="about-us">ABOUT US...</h2>
+</a>
+
+<!--about us END-->
+
+<!--category start-->
+
+
+
+<div class="container3">
+
+  <div class="box1">
+  <a href="choose gender-modern.html" name="CATEGORY">
+      <div class="box2 one" style="--img:url(black-girl.jpg);" data-text="Modern Apparel"></div>
+  </a>
+  </div>
+
+
+  <div class="box1">
+  <a href="choose gender-ancient.html">
+  <div class="box2 two" style="--img:url(cute-girl.jpg);" data-text="Ancient Costume"></div>
+  </a>
+  </div>
+
+  <div class="box1">
+  <a href="choose gender-wedding.html">
+  <div class="box2 three" style="--img:url(white-girl.jpg);" data-text="Wedding Costume">
+  </div>
+ </a>
+ </div>
+
+
+ <div class="box1">
+ <a href="choose gender-cosplay.html">
+  <div class="box2 four" style="--img:url(karina.jpg);" data-text="Cosplay Costume"></div>
+  </a>
+  </div>
+
+</div>
+
+
+<!--category end-->
+
+
+</body> <!--category-word START-->
+<h2 class="category-word">CATEGORY...</h2>
+<!--category-word END-->
+
+ <!--light animation START-->
+
+ <div class="animate77">
+  <script>
+      var pos = document.documentElement;
+      pos.addEventListener('mousemove',e =>{
+          pos.style.setProperty('--x', e.clientX + 'px')
+          pos.style.setProperty('--y', e.clientY + 'px')
+      })
+  </script>
+  <script type="text/javascript">
+      function hideButton(x)
+      {
+          x.style.display='none';
+      }
+  </script>
+ 
+
+</div>
+<!--light animation END-->
+
+<!--comments start-->
+
+
+    <!--Testimonials-->
+    <section id="testimonials">
+        <!--heading-->
+        <a name="COMMENTS">
+        <div class="testimonial-heading">
+            <span>Comments</span>
+            <h1>Client Review</h1>
+        </div>
+    </a>
+        <!--testimonials-box-container-->
+        
+        <div class="testimonial-box-container">
+            <!--BOX-1-->
+            <div class="testimonial-box">
+                <!--top-->
+                <div class="box-top">
+                    <!--profile-->
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="profile1.jpg" width="90px">
+                        </div>
+                        <div class="name-user">
+                            <strong>caven</strong>
+                            <span>@caven_621311</span>
+                        </div>
+                    </div>
+                    <!--reviews-->
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i><!--Empty Star-->
+                    </div>
+
+                </div>
+
+                <!--Comments-->
+                <div class="client-comment">
+                    <p> I adore the style of contemporary clothing! I swear I'll buy clothes from this internet retailer once more. </p>
+                </div>
+            </div>
+
+
+
+            <!--BOX-2-->
+            <div class="testimonial-box">
+                <!--top-->
+                <div class="box-top">
+                    <!--profile-->
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="profile2.jpg" width="90px">
+                        </div>
+                        <div class="name-user">
+                            <strong>elaine</strong>
+                            <span>@elaine_251521</span>
+                        </div>
+                    </div>
+                    <!--reviews-->
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+                <!--Comments-->
+                <div class="client-comment">
+                    <p> My spouse purchased me a few bridal gowns. Compared to the ones in the pictures, they look better. I'm incredibly happy with them. </p>
+                </div>
+            </div>
+
+
+
+            <!--BOX-3-->
+            <div class="testimonial-box">
+                <!--top-->
+                <div class="box-top">
+                    <!--profile-->
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="profile3.jpg" width="90px">
+                        </div>
+                        <div class="name-user">
+                            <strong>gameislife</strong>
+                            <span>@gameislife_11811</span>
+                        </div>
+                    </div>
+                    <!--reviews-->
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i><!--Empty Star-->
+                    </div>
+
+                </div>
+
+                <!--Comments-->
+                <div class="client-comment">
+                    <p> I frequently purchase cosplay costumes from this shop, and I can attest that they are among the most cosy outfits I have ever had.</p>
+                </div>
+            </div>
+        </div>
+        </a>
+    </section>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>We appreciate your patronage of our clothing business online! If you'd like to share information about our store that you enjoy on social media, we'd really appreciate it.</p>
+        </div>
+        <div class="container70">
+            <div class="contactInfo">
+                <div class="box7">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p><br>77 Jalan Fashion<br>Taman Cameo 31320<br>Ipoh Perak <br>Malaysia</p>
+                    </div>
+                </div>
+    
+                <div class="box7">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+6016-590-4830</p>
+                    </div>
+                </div>
+    
+                <div class="box7">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>exquisfashion77@gmail.com</p>
+                    </div>
+                </div>
+    
+                <h2 class="txt">Connect with us</h2>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="contactForm">
+                <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+    
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                     <span>Type Your Message...</span>
+                 </div>
+     
+                 <div class="inputBox">
+                     <input type="submit" value="Send">
+                     
+                 </div>
+    
+                </form>
+            </div>
+        </div>
+    </section>
+    </body>
+
+</html>

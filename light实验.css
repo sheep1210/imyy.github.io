@@ -1,0 +1,168 @@
+
+
+.animate77
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle at var(--x) var(--y), transparent 0%,    rgba(0,0,0,1)5%);
+    animation-name: animate67;
+    animation-duration: 1.5s;
+    animation-delay: -0.05s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+   
+   
+}
+
+@keyframes animate67
+{
+    0%
+    {
+      background: radial-gradient(circle at var(--x) var(--y),  transparent 0%,     rgba(0,0,0,1)5%);
+      opacity: 100%;
+    }
+
+    5%
+    {
+      background: radial-gradient(circle at var(--x) var(--y),  transparent  5%,    rgba(0,0,0,1)10%);
+      opacity: 100%;
+    }
+
+    10%
+    {
+        background: radial-gradient(circle at var(--x) var(--y),  transparent  10%,   to  rgba(0,0,0,1)15%);
+        opacity: 100%;
+    }
+
+    15%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  15%,    rgba(0,0,0,1)20%);
+        opacity: 100%;
+       
+    }
+
+
+    20%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent 20%,   rgba(0,0,0,1)25%);
+        opacity: 100%;
+    }
+
+    25%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent 25%,    rgba(0,0,0,1)30%);
+        opacity: 100%;
+    }
+
+    30%
+    {
+         background: radial-gradient(circle at var(--x) var(--y), transparent  30%,    rgba(0,0,0,1)35%);
+         opacity: 100%;
+       
+    }
+
+    35%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  35%,    rgba(0,0,0,1)40%);
+        opacity: 100%;
+    }
+
+    40%
+    {
+       
+        background: radial-gradient(circle at var(--x) var(--y), transparent  40%,    rgba(0,0,0,1)45%);
+        opacity: 100%;
+    }
+
+    45%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  45%,    rgba(0,0,0,1)50%);
+        opacity: 100%;
+    }
+
+    50%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  50%,    rgba(0,0,0,1)55%);
+        opacity: 100%;
+       
+    }
+
+    55%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  55%,    rgba(0,0,0,1)60%);
+        opacity: 100%;
+    }
+
+    60%
+    {
+       
+         background: radial-gradient(circle at var(--x) var(--y), transparent  60%,    rgba(0,0,0,1)65%);
+         opacity: 100%;
+    }
+
+    65%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  65%,    rgba(0,0,0,1)70%);
+        opacity: 100%;
+    }
+
+    70%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  70%,   rgba(0,0,0,1)75%);
+        opacity: 100%;
+    }
+
+    75%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  75%,   rgba(0,0,0,1)80%);
+        opacity: 100%;
+    }
+
+    80%
+    {
+       background: radial-gradient(circle at var(--x) var(--y), transparent  80%,   rgba(0,0,0,1)85%);
+       opacity: 100%;
+       
+    }
+
+    85%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  85%,   rgba(0,0,0,1)90%);
+        opacity: 100%;
+    }
+
+    90%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  90%,    rgba(0,0,0,1)95%);
+        opacity: 100%;
+       
+    }
+
+    95%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  95%,    rgba(0,0,0,1)100%);
+        opacity: 100%;
+    }
+
+
+    100%
+    {
+        background: radial-gradient(circle at var(--x) var(--y), transparent  100%,    rgba(0,0,0,1)500%);
+        opacity: 0%;
+    }
+
+}
+
+
+
+
+
+
+
+
+  

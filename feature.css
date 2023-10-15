@@ -1,0 +1,230 @@
+*
+{
+     box-sizing: border-box;
+    font-family: "Glass Antiqua",serif;
+}
+body
+{
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000815;
+}
+
+.container1
+{
+    position: absolute;
+    left: 50px;
+    top: 1150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    
+}
+
+.container1 .box1
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 320px;
+    background: var(--clr);
+    box-shadow: 0 0 0 15px #0009, 0 25px 55px var(--clr);
+    
+}
+
+.container1 .box1 h2
+{
+position: relative;
+bottom: 50px;
+left: 6px;
+color: #020d1e;
+font-size: 4em;
+text-align: center;
+line-height: 2,5em;
+transform: scale(0);
+transition: 0.5s;
+transition-delay: 0s;
+filter: blur(10px);
+
+}
+
+.container1 .box1 h2 small
+{
+    position: relative;
+    top: 50px;
+    right:5px;
+    font-size: 0.35em;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.container1 .box1:hover h2
+{
+    transform: scale(1);
+    transition-delay: 0.5s;
+    filter: blur(0px);
+   
+}
+
+.container1 .box1 div.icon
+{
+position: absolute;
+right:83px;
+font-size: 4em;
+transition: 0.5s;
+opacity: 0;
+transform: translateY(100px);
+
+}
+
+.container1 .box1:hover div.icon
+{
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 1s;
+   
+}
+
+
+.container1 .box1 a.red-box
+{
+position:absolute;
+bottom:30px;
+color: white;
+background: rgb(56, 255, 212);
+border: solid 2px white;
+border-radius: 8px;
+display: inline-block;
+padding: 10px 25px;
+text-decoration: none;
+transition: 0.5s;
+opacity: 0;
+transform: translateY(100px);
+z-index: 2;
+
+}
+
+.container1 .box1:hover a.red-box
+{
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 1s;
+   
+}
+
+
+.container1 .box1 a.blue-box
+{
+position:absolute;
+bottom:30px;
+color: white;
+background:#4141e1 ;
+border: solid 2px white;
+border-radius: 8px;
+display: inline-block;
+padding: 10px 25px;
+text-decoration: none;
+transition: 0.5s;
+opacity: 0;
+transform: translateY(100px);
+z-index: 2;
+
+}
+
+.container1 .box1:hover a.blue-box
+{
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 1s;
+    
+}
+
+.container1 .box1 a.pink-box
+{
+position:absolute;
+bottom:30px;
+color: white;
+background: #29e2f3;
+border: solid 2px white;
+border-radius: 8px;
+display: inline-block;
+padding: 10px 25px;
+text-decoration: none;
+transition: 0.5s;
+opacity: 0;
+transform: translateY(100px);
+z-index: 2;
+}
+
+.container1 .box1:hover a.pink-box
+{
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 1s;
+    
+}
+
+.container1 .box1 .clip
+{
+    position: absolute;
+    inset: 20px;
+    box-shadow: 0 0 0 18px #020d1e;
+   
+}
+
+.container1 .box1 .clip span
+{
+    position: absolute;
+    inset: 0;
+    background: #020d1e;
+    transition: 0.25s;
+   
+}
+
+.container1 .box1 .clip span:nth-child(1)
+{
+clip-path: polygon(0 0, 50% 40%, 100% 0);
+transition-delay: 0s;
+
+}
+
+.container1 .box1:hover .clip span:nth-child(1)
+{
+    clip-path: polygon(0 0, 50% 0, 100% 0);
+    
+}
+
+.container1 .box1 .clip span:nth-child(2)
+{
+    clip-path: polygon(0 0, 40% 50%, 50% 100%,0% 100%);
+    transition-delay: 0.25s;
+    
+}
+
+.container1 .box1:hover .clip span:nth-child(2)
+{
+    clip-path: polygon(0 0, 0 100%, 50% 100%,0% 100%);
+    
+}
+
+
+.container1 .box1 .clip span:nth-child(3)
+{
+    clip-path: polygon(60% 50%, 100% 0%, 100% 100%,50% 100%);
+    transition-delay: 0.5s;
+    
+}
+
+.container1 .box1:hover .clip span:nth-child(3)
+{
+    clip-path: polygon(100% 100%, 100% 0%, 100% 100%,50% 100%);
+   
+}
